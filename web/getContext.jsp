@@ -4,3 +4,7 @@
 <%=pageContext.getAttribute("name")%>
 <br/>
 <%=request.getAttribute("name")%>
+<br/>
+<%=session.getAttribute("name")%>
+<br/>
+<%=application.getAttribute("name")%>
